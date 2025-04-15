@@ -1,68 +1,10 @@
-.sidebar {
-  width: 240px;
-  height: 100vh;
-  background-color: #fff;
-  border-right: 1px solid #eee;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.nav-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-menu li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 12px;
-  border-radius: 8px;
-  color: #555;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.nav-menu li:hover,
-.nav-menu .active {
-  background-color: #ff4db8;
-  color: white;
-}
-
-.sidebar-promo {
-  margin-top: auto;
-  background-color: #f2f8ff;
-  padding: 15px;
-  text-align: center;
-  border-radius: 12px;
-}
-
-.sidebar-promo img {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-
-.sidebar-promo h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.sidebar-promo button {
-  background-color: #1e90ff;
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-}
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  

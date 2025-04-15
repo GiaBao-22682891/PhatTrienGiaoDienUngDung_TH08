@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .header-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f04894;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search-box {
+    position: relative;
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-left: 8px;
+  }
+  
+  .search-icon {
+    color: #888;
+  }
+  
+  .icon {
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  

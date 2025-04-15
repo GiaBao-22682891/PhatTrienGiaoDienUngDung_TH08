@@ -21,7 +21,6 @@ function Sidebar() {
       </nav>
 
       <div className="sidebar-promo">
-        <img src="https://via.placeholder.com/150x100" alt="Promo" />
         <h4>V2.0 is available</h4>
         <button>Try now</button>
       </div>

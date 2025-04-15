@@ -15,7 +15,7 @@ const Header = () => {
         <FaBell className="icon" />
         <FaQuestionCircle className="icon" />
         <img
-          src="https://randomuser.me/api/portraits/women/44.jpg"
+          src="../avatarPlaceholder.png"
           alt="User Avatar"
           className="avatar"
         />
